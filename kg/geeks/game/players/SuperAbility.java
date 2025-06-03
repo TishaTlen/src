@@ -7,5 +7,6 @@ public enum SuperAbility {
     BLOCK_AND_REVERT,
     INVISIBILITY,
     SUMMON,
-    FAKE_DEATH
+    FAKE_DEATH,
+    GAMBLE
 }

@@ -20,7 +20,8 @@ public class RPG_Game {
         Druid druid = new Druid("Druid", 230, 8);
         TrickyBastard tricky = new TrickyBastard("Tricky", 220, 10);
 
-        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, avrora, druid, tricky};
+        Gambler gambler = new Gambler("Лудоман", 200, 10);
+        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, gambler};
 
         printStatistics(boss, heroes);
         while (!isGameOver(boss, heroes)) {
